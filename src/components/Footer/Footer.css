@@ -1,5 +1,5 @@
 .footer--container {
-    height: 70vh;
+    height: 80vh;
     
     display: flex;
     flex-wrap: wrap;
@@ -74,5 +74,9 @@
         
         gap: 1em;
         flex-wrap: wrap;
+    }
+
+    .footer--socialIcons span:last-child{
+        margin: 0;
     }
 }
