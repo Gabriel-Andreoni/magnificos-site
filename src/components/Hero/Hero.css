@@ -1,0 +1,102 @@
+.hero--container {
+    height: calc(100vh - 4em);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 1em;
+
+}
+
+.hero--apresentation {
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero--apresentation h1, h4 {
+    color: #fff;
+}
+
+.hero--apresentation h1 {
+    font-family: 'Rye', cursive;
+    font-weight: normal;
+    font-size: 3em;
+
+    animation: showUp .5s linear;
+}
+
+.hero--apresentation h4 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: normal;
+    font-size: 1.4em;
+
+    animation: showUp .7s linear;
+}
+
+.hero--apresentation button {
+    width: 50%;
+
+    padding: 1em;
+
+    border-radius: .5em;
+    border: none;
+
+    background-color: #a00606;
+
+
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+
+    transition: all .3s ease-in-out;
+
+    cursor: pointer;
+
+    animation: showUp .9s linear;
+}
+
+.hero--apresentation button:hover {
+    transform: translateY(-5%);
+}
+
+.hero--apresentation button > a {
+    padding: 1em 4em;
+
+    text-decoration: none;
+
+    color: #fff;
+
+}
+
+@keyframes showUp {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+@media (width < 600px) {
+    .hero--apresentation {
+        width: 100%;
+    }
+    
+    .hero--apresentation button {
+        width: 100%;
+    }
+}

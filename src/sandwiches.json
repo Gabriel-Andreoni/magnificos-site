@@ -1,0 +1,415 @@
+{
+    "hamburgers": [
+        {
+            "id": 1,
+            "name": "X-Buguer",
+            "ingredients": [
+                "Hamburger",
+                "Queijo"
+            ],
+            "price": "R$ 30,00"
+        },
+        {
+            "id": 2,
+            "name": "X-Salada",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Alface"
+            ],
+            "price": "R$ 32,00"
+        },
+        {
+            "id": 3,
+            "name": "X-Bacon",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Bacon"
+            ],
+            "price": "R$ 38,00"
+        },
+        {
+            "id": 4,
+            "name": "X-Bacon Salada",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Alface",
+                "Bacon"
+            ],
+            "price": "R$ 40,00"
+        },
+        {
+            "id": 5,
+            "name": "X-Egg Bacon",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Ovo",
+                "Bacon"
+            ],
+            "price": "R$ 42,00"
+        },
+        {
+            "id": 6,
+            "name": "Especial da Casa",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Bacon",
+                "Salsicha",
+                "Ovo",
+                "Calabresa",
+                "Frango Desfiado",
+                "Presunto",
+                "Catupiry"
+            ],
+            "price": "R$ 48,00"
+        }
+    ],
+    "frango": [
+        {
+            "id": 7,
+            "name": "X-Frango",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Alface"
+            ],
+            "price": "R$ 32,00"
+        },
+        {
+            "id": 8,
+            "name": "X-Frango Bacon",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Alface",
+                "Bacon"
+            ],
+            "price": "R$ 38,00"
+        },
+        {
+            "id": 9,
+            "name": "X-Frango Egg",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Alface",
+                "Ovo"
+            ],
+            "price": "R$ 40,00"
+        },
+        {
+            "id": 10,
+            "name": "X-Frango Egg Bacon",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Alface",
+                "Ovo",
+                "Bacon"
+            ],
+            "price": "R$ 42,00"
+        },
+        {
+            "id": 11,
+            "name": "X-Frango Especial",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Bacon",
+                "Salsicha",
+                "Ovo",
+                "Calabresa",
+                "Presunto",
+                "Catupiry"
+            ],
+            "price": "R$ 48,00"
+        }
+    ],
+    "lombo": [
+        {
+            "id": 12,
+            "name": "X-Lombo",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Alface"
+            ],
+            "price": "R$ 32,00"
+        },
+        {
+            "id": 13,
+            "name": "X-Lombo Egg",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Alface",
+                "Ovo"
+            ],
+            "price": "R$ 38,00"
+        },
+        {
+            "id": 14,
+            "name": "X-Lombo Egg Bacon",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Alface",
+                "Ovo",
+                "Bacon"
+            ],
+            "price": "R$ 42,00"
+        },
+        {
+            "id": 15,
+            "name": "X-Lombo Especial",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Ovo",
+                "Bacon",
+                "Salsicha",
+                "Calabresa",
+                "Presunto",
+                "Frango Desfiado",
+                "Catupiry"
+            ],
+            "price": "R$ 48,00"
+        }
+    ],
+    "churrasquinho": [
+        {
+            "id": 16,
+            "name": "X-Churrasquinho",
+            "ingredients": [
+                "Queijo",
+                "Tomate"
+            ],
+            "price": "R$ 38,00"
+        },
+        {
+            "id": 17,
+            "name": "X-Churrasquinho Egg",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Ovo"
+            ],
+            "price": "R$ 42,00"
+        },
+        {
+            "id": 18,
+            "name": "X-Churrasquinho Egg Bacon",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Ovo",
+                "Bacon"
+            ],
+            "price": "R$ 45,00"
+        },
+        {
+            "id": 19,
+            "name": "X-Churrasquinho Especial",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Ovo",
+                "Bacon",
+                "Salsicha",
+                "Calabresa",
+                "Presunto"
+            ],
+            "price": "R$ 50,00"
+        }
+    ],
+    "calabresa": [
+        {
+            "id": 20,
+            "name": "X-Calabresa",
+            "ingredients": [
+                "Queijo",
+                "Tomate"
+            ],
+            "price": "R$ 32,00"
+        },
+        {
+            "id": 21,
+            "name": "X-Calabresa Egg",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Ovo"
+            ],
+            "price": "R$ 36,00"
+        },
+        {
+            "id": 22,
+            "name": "X-Calabresa Especial",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Bacon",
+                "Salsicha",
+                "Ovo",
+                "Presunto",
+                "Frango Desfiado",
+                "Catupiry"
+            ],
+            "price": "R$ 45,00"
+        }
+    ],
+    "mignon": [
+        {
+            "id": 23,
+            "name": "X-Mignon",
+            "ingredients": [
+                "Queijo",
+                "Tomate"
+            ],
+            "price": "R$ 42,00"
+        },
+
+        {
+            "id": 24,
+            "name": "X-Mignon Egg",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Ovo"
+            ],
+            "price": "R$ 46,00"
+        },
+
+        {
+            "id": 25,
+            "name": "X-Mignon Bacon",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Bacon"
+            ],
+            "price": "R$ 48,00"
+        },
+
+        {
+            "id": 26,
+            "name": "X-Mignon Especial",
+            "ingredients": [
+                "Queijo",
+                "Tomate",
+                "Bacon",
+                "Salsicha",
+                "Ovo",
+                "Calabresa",
+                "Catupiry",
+                "Presunto"
+            ],
+            "price": "R$ 58,00"
+        }
+
+
+    ],
+    "others": [
+        {
+            "id": 27,
+            "name": "Americano",
+            "ingredients": [
+                "Ovo",
+                "Presunto",
+                "Queijo",
+                "Tomate"
+            ],
+            "price": "R$ 30,00"
+        },
+        {
+            "id": 28,
+            "name": "Prensado",
+            "ingredients": [
+                "Presunto",
+                "Queijo",
+                "Tomate"
+            ],
+            "price": "R$ 26,00"
+        }
+    ],
+    "hotDogs": [
+        {
+            "id": 29,
+            "name": "Dog Simples",
+            "ingredients": [
+                "2 Salsichas",
+                "Batata Palha",
+                "Vinagrete",
+                "Mostarda",
+                "Maionese",
+                "Ketchup"
+            ],
+            "price": "R$ 20,00"
+        },
+        {
+            "id": 30,
+            "name": "Dog Catupiry",
+            "ingredients": [
+                "2 Salsichas",
+                "Batata Palha",
+                "Vinagrete",
+                "Mostarda",
+                "Maionese",
+                "Ketchup",
+                "Catupiry"
+            ],
+            "price": "R$ 25,00"
+        },
+        {
+            "id": 31,
+            "name": "Dog Bacon",
+            "ingredients": [
+                "2 Salsichas",
+                "Batata Palha",
+                "Vinagrete",
+                "Bacon",
+                "Mostarda",
+                "Maionese",
+                "Ketchup",
+                "Catupiry"
+            ],
+            "price": "R$ 28,00"
+        },
+        {
+            "id": 32,
+            "name": "Dog Frango",
+            "ingredients": [
+                "2 Salsichas",
+                "Batata Palha",
+                "Vinagrete",
+                "Frango Desfiado",
+                "Mostarda",
+                "Maionese",
+                "Ketchup",
+                "Catupiry"
+            ],
+            "price": "R$ 32,00"
+        },
+        {
+            "id": 33,
+            "name": "Dog Especial",
+            "ingredients": [
+                "2 Salsichas",
+                "Batata Palha",
+                "Vinagrete",
+                "Bacon",
+                "Frango Desfiado",
+                "Milho",
+                "Mostarda",
+                "Maionese",
+                "Ketchup",
+                "Catupiry"
+            ],
+            "price": "R$ 38,00"
+        }
+    ]
+}
