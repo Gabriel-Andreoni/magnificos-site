@@ -86,7 +86,7 @@
     }
 }
 
-@media (width < 800px) {
+@media (width < 400px) {
     .header--menu {
         padding: 1em;
     }

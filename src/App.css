@@ -33,7 +33,3 @@ html {
 ::-webkit-scrollbar-corner {
   background: #000;
 }
-
-
-@media(width < 600px) {
-}

@@ -91,7 +91,7 @@
     }
 }
 
-@media (width < 800px) {
+@media (width < 400px) {
     .hero--apresentation {
         width: 100%;
     }
