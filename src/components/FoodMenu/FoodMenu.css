@@ -138,6 +138,10 @@
         display: none;
     }
 
+    .swiper--slideContainer ul>li>div h3 {
+        font-size: 1.3em;
+    }
+
     .swiper--slideContainer ul > li > aside {
 
        width: 40% ;
