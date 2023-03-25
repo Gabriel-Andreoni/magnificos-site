@@ -17,7 +17,7 @@
     padding: 4em;
 
     background-color: #dada06;
-    
+
     overflow-y: scroll;
 }
 
@@ -68,7 +68,7 @@
 
 .swiper--slideContainer ul>li>div {
     width: 60%;
-    
+
     padding: 1em;
 
     display: flex;
@@ -95,7 +95,7 @@
 
 
 
-.lanchePrice--aside{
+.lanchePrice--aside {
     width: 20%;
 
     padding: .5em;
@@ -115,7 +115,7 @@
 }
 
 @media (width < 600px) {
-    .foodMenu--container { 
+    .foodMenu--container {
         padding: 0;
     }
 
@@ -128,13 +128,17 @@
         gap: 0;
     }
 
-    .swiper--slideContainer ul>li  {
+    .swiper--slideContainer ul>li {
         grid-column: 1 / 4;
 
         padding: .5em;
     }
 
-    .swiper--slideContainer ul > li > section {
+    .swiper--slideContainer ul>li>div {
+        align-items: flex-start;
+    }
+
+    .swiper--slideContainer ul>li>section {
         display: none;
     }
 
@@ -142,11 +146,11 @@
         font-size: 1.3em;
     }
 
-    .swiper--slideContainer ul > li > aside {
+    .swiper--slideContainer ul>li>aside {
 
-       width: 40% ;
+        width: 40%;
 
-       font-size: 1.5em;
-        
-    } 
+        font-size: 1.5em;
+
+    }
 }
