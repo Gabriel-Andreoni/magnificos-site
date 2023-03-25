@@ -114,7 +114,7 @@
 
 }
 
-@media (width < 400px) {
+@media (width < 600px) {
     .foodMenu--container { 
         padding: 0;
     }
