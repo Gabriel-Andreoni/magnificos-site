@@ -37,7 +37,11 @@ html {
 @media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
 
   .apresentation--container {
-    background-color: #dada06;
-    background-image: none;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.486)),
+      url('https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
