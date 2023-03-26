@@ -34,6 +34,12 @@ html {
   background: #000;
 }
 
+@media (width < 600px) {
+  .apresentation--container {
+    background-position: right;
+  }
+}
+
 @media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
 
   .apresentation--container {
