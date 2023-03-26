@@ -39,7 +39,7 @@ html {
   .apresentation--container {
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.486)),
       url('https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    background-position: left;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: 100% 100% auto;
     background-attachment: fixed;
