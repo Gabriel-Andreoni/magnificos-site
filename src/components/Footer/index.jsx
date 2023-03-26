@@ -19,11 +19,19 @@ export default function Footer() {
                 </span>
                 <span>
                     <a href="https://wa.me/19982192641" rel="external" target="_blank"><img src={whatsappIcon} alt="" /></a>
-                    <p>(19) 98219-2641</p>
+                    <p>
+                        <a href="https://wa.me/19982192641" rel="external" target="_blank">
+                            (19) 98219-2641
+                        </a>
+                    </p>
                 </span>
                 <span>
                     <a href="https://www.instagram.com/magnificos.lanchess/" rel="external" target="_blank"><img src={instagramIcon} alt="" /></a>
-                    <p>@magnificos.lanches</p>  
+                    <p>
+                        <a href="https://www.instagram.com/magnificos.lanchess/" rel="external" target="_blank">
+                            @magnificos.lanches
+                        </a>
+                    </p>
                 </span>
 
                 <span>Website developed by Gabriel Andreoni. All rights reserved. &copy;{`${currentYear}`}</span>

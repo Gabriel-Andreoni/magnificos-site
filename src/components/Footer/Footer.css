@@ -61,6 +61,12 @@
     color: #fff;
 }
 
+.footer--socialIcons span > p > a {
+    text-decoration: none;
+    
+    color: #fff;
+}
+
 .footer--socialIcons span:last-child {
     margin: 1em;
     font-size: .6em;
