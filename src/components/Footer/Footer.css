@@ -1,6 +1,6 @@
 .footer--container {
     height: 80vh700px;
-    
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -61,7 +61,7 @@
     color: #fff;
 }
 
-.footer--socialIcons span:last-child{
+.footer--socialIcons span:last-child {
     margin: 1em;
     font-size: .6em;
 }
@@ -71,12 +71,27 @@
         width: 100%;
 
         margin-bottom: 1em;
-        
+
         gap: 1em;
         flex-wrap: wrap;
     }
 
-    .footer--socialIcons span:last-child{
+    .footer--socialIcons span:last-child {
+        margin: 0;
+    }
+}
+
+@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
+    .footer--socialIcons {
+        width: 100%;
+
+        margin-bottom: 1em;
+
+        gap: 1em;
+        flex-wrap: wrap;
+    }
+
+    .footer--socialIcons span:last-child {
         margin: 0;
     }
 }

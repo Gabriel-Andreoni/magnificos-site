@@ -154,3 +154,44 @@
 
     }
 }
+
+@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
+    .foodMenu--container {
+        padding: 0;
+    }
+
+    .swiper--slideContainer {
+        padding: 1em;
+    }
+
+    .swiper--slideContainer ul {
+        row-gap: 1em;
+        gap: 0;
+    }
+
+    .swiper--slideContainer ul>li {
+        grid-column: 1 / 4;
+
+        padding: .5em;
+    }
+
+    .swiper--slideContainer ul>li>div {
+        align-items: flex-start;
+    }
+
+    .swiper--slideContainer ul>li>section {
+        display: none;
+    }
+
+    .swiper--slideContainer ul>li>div h3 {
+        font-size: 1.3em;
+    }
+
+    .swiper--slideContainer ul>li>aside {
+
+        width: 40%;
+
+        font-size: 1.5em;
+
+    }
+}
