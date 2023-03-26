@@ -26,7 +26,7 @@ export default function Footer() {
                     <p>@magnificos.lanches</p>  
                 </span>
 
-                <span>Website developed by Gabriel Andreoni, all rights reserved. &copy;{`${currentYear}`}</span>
+                <span>Website developed by Gabriel Andreoni. All rights reserved. &copy;{`${currentYear}`}</span>
 
             </section>
         </div>
