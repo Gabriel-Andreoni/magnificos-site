@@ -47,7 +47,7 @@ html {
       url('https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-position: right;
     background-repeat: no-repeat;
-    background-size: 20% 20% auto;
+    background-size: auto;
     background-attachment: fixed;
   }
 }
